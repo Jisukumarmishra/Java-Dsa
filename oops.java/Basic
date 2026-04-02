@@ -1,0 +1,13 @@
+polymorphism me ek clasee ke property ke dusre class mo use karne ke liye ham log "extend" keyword use karte hai 
+ek class ki property dusra class acces kre :- inheritance
+static keyword ham ush varriable ke samne use karte hai jha pe ham chahte hai ki vo varriable 
+sabke liye same rhe 
+// array
+. memory ke anda data continuous form me store hoga 
+. fixed size
+. primitive data and objects store kra sakte has
+
+// arraylist 
+. size varriable
+. non continuous memory store hota hai 
+. only objects

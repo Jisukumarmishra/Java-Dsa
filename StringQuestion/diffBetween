@@ -1,0 +1,10 @@
+.equals(); and == in a String // to check two string equal or not
+
+they both check in different manner:-
+
+
+📖 Think of two different people writing the same word "Tony" on two papers:
+
+.equals() → Checks if the words are same → ✅ Always correct.
+
+== → Checks if it’s exactly the same paper object → ❌ May be false.

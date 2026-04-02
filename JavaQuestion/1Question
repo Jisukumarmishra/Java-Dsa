@@ -1,0 +1,31 @@
+// Make a program that prints the table of a number that is input by the user. 
+
+import java.util.Scanner;
+class Main {
+    public static void main (String [] args){
+    Scanner sc = new Scanner (System.in);
+    int n = sc.nextInt();
+    
+    int N1 =n*1;
+   System.out.println(N1);
+   int N2 = n*2;
+   System.out.println(N2);
+   int N3 = n*3;
+   System.out.println(N3);
+   int N4 = n*4;
+   System.out.println(N4);
+   int N5 = n*5;
+   System.out.println(N5);
+   int N6 = n*6;
+   System.out.println(N6);
+   int N7= n*7;
+   System.out.println(N7);
+   int N8 = n*8;
+   System.out.println(N8);
+   int N9 = n*9;
+   System.out.println(N9);
+   int N10= n*10;
+   System.out.println(N10);
+   System.out.println(n);
+    }
+}
