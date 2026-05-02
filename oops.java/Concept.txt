@@ -1,0 +1,5 @@
+Every Single Class Inherit Java Object Class(Internally)
+          
+#   Inheritance    #
+
+parent Clas dont know or dont care what child class contains but child class care what parent class contains

@@ -4,18 +4,24 @@ classes
 .LinkedinList
 .vector
 .stack
+
+
 //queueInterfaces
 classes
 .PriorityQueue
 .LinkedinList
 .Dequue
 .ArrayDeque
+
+
 //Set InterFaces
 classes
 .HashSet (alag alag type ke object ko collect karke srote karna hao tab)
 .LinkedHashSet
 .SortedSet
 .TreeSet
+
+
 //MapInterFace
 .HashMap
 .LinkedHashMap
