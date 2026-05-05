@@ -1,0 +1,21 @@
+To inherit a class, you simply incorporate the definition of one class into another by using the extends keyword.
+
+class subclass-name extends superclass-name { // body of class
+}
+You can only specify one superclass for any subclass that you create. Java does not support the inheritance of
+multiple superclasses into a single subclass. You can, as stated, create a hierarchy of inheritance in which a subclass
+becomes a superclass of another subclass. However, no class can be a superclass of itself.
+
+Although a subclass includes all of the members of its superclass, it cannot access those members of the superclass
+that have been declared as private.
+
+A Superclass Variable Can Reference a Subclass Object:
+It is important to understand that it is the type of the reference variable—not the type of the object that it refers
+to—that determines what members can be accessed.
+When a reference to a subclass object is assigned to a superclass reference variable, you will have access only to
+those parts of the object defined by the superclass.
+
+plainbox      =  weightbox;
+(superclass)     (subclass)
+
+SUPERCLASS ref = new SUBCLASS();    // HERE ref can only access methods which are available in SUPERCLASS
