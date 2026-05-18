@@ -1,0 +1,11 @@
+The this Keyword:
+Sometimes a method will need to refer to the object that invoked it. To allow this, Java defines the this keyword.
+this can be used inside any method to refer to the current object. That is, this is always a reference to the object on
+which the method was invoked.
+
+final Keyword:
+A field can be declared as final. Doing so prevents its contents from being modified, making it, essentially, a constant.
+This means that you must initialize a final field when it is declared.
+
+It is a common coding convention to choose all uppercase identifiers for final fields:
+     final int FILE_OPEN = 2;
