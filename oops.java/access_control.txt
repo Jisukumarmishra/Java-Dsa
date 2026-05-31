@@ -1,3 +1,23 @@
+acces_Modifier:=
+private means only in that file is accessable
+public means everywhere
+default := only accesable in that package not accessable in other package ;
+protected is used when we taling about inheritances
+
+
+object class = it is the top most class in inheritance
+by default object class is extended by the every class
+ 
+
+
+
+
+
+
+
+
+
+
 Access Control:
 
 How a member can be accessed is determined by the access modifier attached to its declaration.
@@ -9,6 +29,9 @@ protected applies only when inheritance is involved.
 
 When no access modifier is used, then by default the member of a class is public within its own package,
 but cannot be accessed outside of its package.
+
+
+
 
             │ Class │ Package │ Subclass │ Subclass │ World
             │       │         │(same pkg)│(diff pkg)│(diff pkg & not subclass)

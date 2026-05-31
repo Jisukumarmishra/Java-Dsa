@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class main {
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
         List<Integer> list2 = new LinkedList<>();
