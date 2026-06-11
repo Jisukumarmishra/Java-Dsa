@@ -1,3 +1,9 @@
+
+Inheritance:= Child Class hava All Knowege Of parent Class But Parent Class Have Not Knpowedge About Child Class
+Means We Only Move Upwards (Child  class ---> parent Class)
+
+
+
 To inherit a class, you simply incorporate the definition of one class into another by using the extends keyword.
 
 class subclass-name extends superclass-name { // body of class

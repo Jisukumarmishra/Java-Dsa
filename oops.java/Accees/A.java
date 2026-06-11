@@ -1,5 +1,5 @@
 public class A {
-  int num;
+  protected int num;
   String name;
   int[] arr;
 

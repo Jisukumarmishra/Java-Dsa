@@ -1,17 +1,20 @@
 acces_Modifier:=
 private means only in that file is accessable
+
 public means everywhere
+
+protected:= means with protected in diffrent packages you only able to access in subclasses
+
+
+NoModifier:= Used For The Those Varriable That We Dont Want To Used outside The Package
 default := only accesable in that package not accessable in other package ;
 protected is used when we taling about inheritances
 
 
 object class = it is the top most class in inheritance
 by default object class is extended by the every class
+Every Object Is the Instance Of The Object Class
  
-
-
-
-
 
 
 
