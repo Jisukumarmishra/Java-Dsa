@@ -1,9 +1,31 @@
 To Create An Abstract Method :=
 abstract void career (String name);
 
+
+--Abstract Method nedd to be Overridden
+--styatic method cant be overidden
 --any class that contains one or more anstract method must also be declare as a abstract
 --Every Child Class Have To Override The AbsTract Method Of The Parent Class 
+--You cant Create a object Of An Abstract Classes
+--You Cant Create a Abstract constructor Of an Abstract Calsses 
+--You Cant Create a Abstract Static Method of an Abstract Class
+--but We can Ceate A Static Methods in Abstract Calsses 
 
+
+#InterFaces:-->
+-- That Contains Abstract Functions
+-- Mainly Focus On What The Classes Doing
+-- Multiple Inheritance Is Allowed
+
+# AbstractCalsses Vs Interfaces
+--Abstract Calss Provides The Implementation Of The Interface But Interface cant proviode The Implemnetation Of The Abstract Class
+--Interface hava abstract method and abstract classes have abstract method and non abstract method as well
+
+
+# AbstractClass vs Inheritance
+--Java Interface Can Be Implement Using Implement KeyWord 
+And For The Abstract Class We Using Abstract KeyWord
+-- You Can Implement Multiple Interface Together
 
 
 
