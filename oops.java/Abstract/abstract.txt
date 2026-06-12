@@ -1,3 +1,13 @@
+To Create An Abstract Method :=
+abstract void career (String name);
+
+--any class that contains one or more anstract method must also be declare as a abstract
+--Every Child Class Have To Override The AbsTract Method Of The Parent Class 
+
+
+
+
+
 Sometimes you will want to create a superclass that only defines a generalized form that will be shared by all of its
 subclasses, leaving it to each subclass to fill in the details. Such a class determines the nature of the methods that
 the subclasses must implement.
