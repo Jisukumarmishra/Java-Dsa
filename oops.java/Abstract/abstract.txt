@@ -26,7 +26,16 @@ abstract void career (String name);
 --Java Interface Can Be Implement Using Implement KeyWord 
 And For The Abstract Class We Using Abstract KeyWord
 -- You Can Implement Multiple Interface Together
+Means An Interface also extend Another java interface But An AbstractClass Only extands Single Java Class
+Member Of The Java Interface Is Public By Default
 
+
+note:-
+Static Method Cant Get Inherited
+Reason:--
+Inheritance Means You Are OverRide
+Override Means Its Depend On Object because it run time polymorphism
+And Static Method Dont Depend On Object That Why Static Method Cant Get Inherited
 
 
 
