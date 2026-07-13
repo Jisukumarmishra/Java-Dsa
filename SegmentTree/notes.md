@@ -22,3 +22,13 @@ prefix[j] - prefix[i-1]
 # st me quries ka tc--> O(logn)
 
 update ---> O(logn)
+
+# Segment Tree:--
+
+mid = (s+e)/2
+left = (s, mid)
+right = (mid+1, e)
+
+total level(x) = log(base2)n
+total nodes = 2n-1;
+for safety we take 4n
