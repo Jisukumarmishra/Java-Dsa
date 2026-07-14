@@ -32,3 +32,5 @@ right = (mid+1, e)
 total level(x) = log(base2)n
 total nodes = 2n-1;
 for safety we take 4n
+
+segment tree is full binary tree(every node has 2 child except the leaf node)
