@@ -1,5 +1,5 @@
 package SegmentTree;
-
+// creations of segment tree
 class Main {
   static int[] tree;
 
