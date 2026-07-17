@@ -24,7 +24,7 @@ public class Queries {
   public static int queriesHelper(int i, int si, int sj, int qi, int qj) {
     if (qj <= si || qi >= sj) { // non overlapping
       return 0;
-    } else if (si >= qi && sj <= qi) {// complete overlapp
+    } else if (si >= qi && sj <= qj) {// complete overlapp
       return tree[i];
     } else { // partial overlap
       int mid = (si + sj) / 2;
@@ -45,9 +45,9 @@ public class Queries {
     init(n);
     buildST(0, n - 1, 0, arr);
 
-    for (int i = 0; i < tree.length; i++) {
-      System.out.print(tree[i] + " ");
-    }
+    // for (int i = 0; i < tree.length; i++) {
+    // System.out.print(tree[i] + " ");
+    // }
 
     System.out.print(queries(arr, 2, 5));
 
