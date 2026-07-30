@@ -1,7 +1,4 @@
 package RevisionLL;
-
-package com.kunal;
-
 public class LL {
 
   private Node head;
