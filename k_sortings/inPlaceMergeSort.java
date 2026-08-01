@@ -1,4 +1,4 @@
-package Sortings;
+package k_sortings;
 
 import java.util.Arrays;
 
