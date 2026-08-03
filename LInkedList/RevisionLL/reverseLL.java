@@ -41,4 +41,26 @@ public class reverseLL {
 
   // in place reversal of LL
 
+  public void reverse() {
+    if (size < 2) {
+      return;
+    }
+
+    // starting state
+    Node prev = null;
+    Node present = head;
+    Node next = present.next;
+
+    // duriung state (traversing)
+    while (present != null) {
+      present.next = prev;
+      prev = present; // prev is move ahead
+      present = next; // present is move ahead
+      if (next != null) {
+        next = next.next; // next is also move ahead
+      }
+    }
+    head = prev;
+  }
+
 }
