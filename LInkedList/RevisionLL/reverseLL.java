@@ -53,7 +53,7 @@ public class reverseLL {
 
     // duriung state (traversing)
     while (present != null) {
-      present.next = prev;
+      present.next = prev; // for each iterations
       prev = present; // prev is move ahead
       present = next; // present is move ahead
       if (next != null) {
@@ -64,3 +64,6 @@ public class reverseLL {
   }
 
 }
+
+// When prev is last element and present is null, what about next? that is null
+// beacuse of tha present will become the null

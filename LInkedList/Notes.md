@@ -8,4 +8,4 @@ slow = node.next // +1
 
 # BubbleSorrt :- After Every Iteration the Largest Element Comes In The End
 
-# Two Poiter is the best way to reverse aLL
+# Two Poiter is the best way to reverse a LL
