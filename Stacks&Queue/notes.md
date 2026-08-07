@@ -13,3 +13,8 @@ to convert recursive programs to iteratives we use stacks and queue
 
 insert and remove from both the side
 ReSizeble Array Is the internal Implementations of the deque
+
+two use cases of this keyword
+
+- to refrence a obect
+- to calling as a constructore (used in customStack)
