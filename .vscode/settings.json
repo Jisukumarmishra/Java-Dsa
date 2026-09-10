@@ -4,5 +4,6 @@
   },
   "search.exclude": {
     "**/*.class": true
-  }
+  },
+  "java.dependency.packagePresentation": "hierarchical"
 }
