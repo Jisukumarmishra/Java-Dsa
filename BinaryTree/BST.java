@@ -1,7 +1,5 @@
 package BinaryTree;
 
-import Function_ques.prime;
-
 class BST {
   public class Node {
     private int value;
