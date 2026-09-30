@@ -47,3 +47,11 @@ for (int i = n - 1; i >= 0; i--) {
     stack.push(arr[i]);
 
 }
+
+
+// resut is ArrayList
+result.add(0, currLevel);  // 0 i index
+
+ka matlab hai index 0 par element insert karo.
+
+Jo elements already present hain, woh right shift ho jaate hain.
