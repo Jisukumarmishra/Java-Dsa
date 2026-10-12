@@ -29,11 +29,11 @@ public class CousingAndSibling {
     return ((level(root, xx, 0) == level(root, yy, 0)) && (!isSibling(root, x, y)));
   }
 
-  boolean isSibling(Node node, int x, int y) {
+  boolean isSibling(Node node, Node x, Node y) {
     if (node == null)
       return false;
 
-    return ((node.left.val == x && node.right.val == y) || (node.left.val == y && node.right.val == x)
+    return ((node.left == x && node.right == y) || (node.left == y && node.right == x)
         || isSibling(node.left, x, y) || isSibling(node.right, x, y));
 
   }
